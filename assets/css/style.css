@@ -1480,12 +1480,20 @@ footer .credits a {
 
 /* added by me -------------------- */
 
+.project-description {
+  text-align: center;
+}
 .project-links {
   display: flex;
-  align-items: center;
-}
-.project-link:nth-child(1) {
+  justify-content: space-evenly;
+  margin-top: 1rem;
   margin-bottom: 10px;
+}
+/* .project-link:nth-child(1) {
+  margin-bottom: 10px;
+} */
+.project-link a {
+  color: #0d6efd;
 }
 .copyright-box {
   font-size: 0.4rem;
